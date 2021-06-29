@@ -84,5 +84,11 @@ public class Model {
 		}
 		return result;
 	}
+
+
+	public Graph<Genes, DefaultWeightedEdge> getGrafo() {
+		// TODO Auto-generated method stub
+		return this.grafo;
+	}
 	
 }
